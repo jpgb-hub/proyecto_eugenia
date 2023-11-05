@@ -12,7 +12,7 @@ export const Home = () => {
 			<p>
 				<img src={rigoImageUrl} />
 			</p>
-			<p> En esta página web, encontrarás parte de la obra de la poeta y crítica Eugenia Brito, como asi también galería de fotos, etc </p>
+			<p> En esta página web, encontrarás parte de la obra de la poeta y crítica Eugenia Brito, como asi también galería de fotos, eventos y lanzamientos </p>
 			<div className="alert alert-info">
 				{store.message || "Loading message from the backend (make sure your python backend is running)..."}
 			</div>
